@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramazan İliter | İnşaat Mühendisi</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav a {
+            color: #ffffff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+            width: 80%;
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #282828;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            position: fixed;
+            bottom: 0;
+        }
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ramazan İliter</h1>
+        <nav>
+            <a href="#anasayfa">Anasayfa</a>
+            <a href="#projeler">Projeler</a>
+            <a href="#hakkimda">Hakkımda</a>
+            <a href="#iletisim">İletişim</a>
+        </nav>
+    </header>
+
+    <section id="anasayfa">
+        <h2>Anasayfa</h2>
+        <p>Merhaba, ben Ramazan İliter. İnşaat mühendisliği alanında uluslararası projelerde uzmanlaşmış bir profesyonelim...</p>
+    </section>
+
+    <section id="projeler">
+        <h2>Projeler</h2>
+        <p>Burada yapmış olduğum projelerden bazılarını bulabilirsiniz...</p>
+        <!-- Projelerinizin detaylarını ve görsellerini buraya ekleyin -->
+    </section>
+
+    <section id="hakkimda">
+        <h2>Hakkımda</h2>
+        <p>Kendim hakkında bilgiler, yetkinliklerim, sertifikalarım...</p>
+        <!-- Kişisel bilgilerinizi buraya ekleyin -->
+    </section>
+
+    <section id="iletisim">
+        <h2>İletişim</h2>
+        <p>E-posta: r.iliter07@gmail.com</p>
+        <p>Telefon: +905448608610</p>
+        <!-- Diğer iletişim bilgilerinizi ve sosyal medya bağlantılarınızı buraya ekleyin -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ramazan İliter. Tüm hakları saklıdır.</p>
+    </footer>
+
+    <script>
+        // Güvenlik açısından temel JavaScript kodu
+        // İletişim formu eklerken, spam koruması ve doğrulama ekleyin
+    </script>
+</body>
+</html>
